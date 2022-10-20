@@ -1,0 +1,16 @@
+{
+  "name": "punto-venta",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "localhost": "./node_modules/.bin/servor src index.html 8000 --reload"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.0"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}
